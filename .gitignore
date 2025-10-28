@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+server/node_modules/
+try/node_modules/
+
+# Environment variables
+.env
+server/.env
+try/.env
+
+# Build outputs
+try/dist/
+try/build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Optional
+package-lock.json

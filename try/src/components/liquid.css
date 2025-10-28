@@ -1,0 +1,7 @@
+.liquid-ether-container {
+  position: relative;
+  /* overflow: hidden; */ /* Disabled to allow sibling content to render */
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}

@@ -121,7 +121,7 @@ const ContactContent = () => {
                                 className={`flex items-center space-x-2 text-sm sm:text-base md:text-lg font-medium transition-all duration-300 p-2 rounded-lg hover:bg-purple-800/30 ${link.color}`}
                             >
                                 {link.icon}
-                                <span className="hidden sm:inline text-xs sm:text-sm md:text-base">{link.name}</span>
+                                <span className=" sm:inline text-xs sm:text-sm md:text-base">{link.name}</span>
                             </a>
                         ))}
                     </div>

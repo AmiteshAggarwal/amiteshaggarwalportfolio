@@ -18,7 +18,7 @@ function App() {
       <Navbar />
 
       {/* HOME SECTION */}
-      <section style={{ width: "100%", height: "100vh", position: "relative" }}>
+      <section style={{ width: "100%", height: "100%", position: "relative" }}>
         <LiquidEther
           colors={["#8A2EFF", "#FF3FD1", "#C15BFF"]}
           mouseForce={20}

@@ -148,7 +148,7 @@ const ResearchPaperContent = () => {
         .certificate-card {
           animation: stackBlur linear forwards;
           animation-timeline: view();
-          animation-range: cover 0% exit 0%;
+          animation-range: cover 100% exit 100%;
           transform-origin: top center;
         }
 
@@ -274,7 +274,7 @@ const CertificatesContent = () => {
         .certificate-card {
           animation: stackBlur linear forwards;
           animation-timeline: view();
-          animation-range: cover 0% exit 0%;
+          animation-range: cover 100% exit 100%;
           transform-origin: top center;
         }
 

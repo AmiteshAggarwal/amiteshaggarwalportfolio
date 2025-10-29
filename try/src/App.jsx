@@ -4,7 +4,7 @@ import Home from "./page";
 import Homepage from "./homepage";
 import "./index.css";
 import Navbar from "./Navbar";
-import Particles from "./components/Particles";
+import Particles from "./components/particles";
 import About from "./About";
 import Experience from "./Experience";
 import Education from "./Education";

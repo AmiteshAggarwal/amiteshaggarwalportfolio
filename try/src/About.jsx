@@ -67,13 +67,13 @@ export default function About() {
 
                         {/* View Projects Link */}
                         <span className="Projects">
-                            <a
+                            {/* <a
                                 href="#"
                                 className="flex items-center text-purple-400 hover:text-purple-300 transition duration-300 text-lg group
                                            drop-shadow-[0_0_5px_rgba(192,132,252,0.3)] hover:drop-shadow-[0_0_10px_rgba(192,132,252,0.7)]"
                             >
                                 &lt; View Projects /&gt;
-                            </a>
+                            </a> */}
                         </span>
                     </div>
                 </div>

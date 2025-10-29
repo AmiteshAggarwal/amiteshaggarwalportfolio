@@ -82,9 +82,9 @@ export default function Education() {
                 {/* Right Section: Graphic/Visualization (Takes 1/3 of space on large screens) */}
                 <div className="right lg:w-1/3 mt-12 lg:mt-0 flex justify-center lg:justify-start">
                     {/* Placeholder for a relevant tech graphic, perhaps a stylized university logo or brain network */}
-                    <div className="w-full max-w-md aspect-square flex items-center justify-center  ml-10">
+                    <div className="w-full max-w-md aspect-square flex items-center justify-center">
                                            <div
-                                               className="relative w-96 h-96 rounded-full border-2 border-purple-500/50 
+                                               className="relative w-80 h-80 rounded-full border-2 border-purple-500/50 
                                                                              shadow-2xl shadow-purple-900 
                                                                              flex items-center justify-center overflow-hidden
                                                                              animate-pulse-slow 

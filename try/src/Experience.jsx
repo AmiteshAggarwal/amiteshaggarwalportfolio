@@ -103,9 +103,9 @@ export default function Experience() {
                 */}
                 <div className="left lg:w-1/3 mt-12 lg:mt-0 flex justify-center lg:justify-end">
                     {/* Placeholder for a relevant graphic (e.g., stylized gear, circuit board) */}
-                    <div className="w-full max-w-md aspect-square flex items-center justify-center mr-10">
+                    <div className="w-full max-w-md aspect-square flex items-center justify-center ">
                         <div
-                            className="relative w-96 h-96 rounded-full border-2 border-purple-500/50 
+                            className="relative w-80 h-80 rounded-full border-2 border-purple-500/50 
                                                           shadow-2xl shadow-purple-900 
                                                           flex items-center justify-center overflow-hidden
                                                           animate-pulse-slow 

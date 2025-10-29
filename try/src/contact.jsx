@@ -31,8 +31,8 @@ const ContactContent = () => {
 
     const socialLinks = [
         { name: 'LinkedIn', icon: <iconify-icon className="bg-blue-500 p-2 text-white rounded" icon="entypo-social:linkedin" width="20" height="20"></iconify-icon>, link: 'https://www.linkedin.com/in/amitesh-aggarwal-834969258/', color: 'text-blue-400 hover:text-blue-300' },
-        { name: 'Email', icon: <iconify-icon icon="skill-icons:gmail-light" width="30" height="30"></iconify-icon>, link: 'mailto:your.email@example.com', color: 'text-red-400 hover:text-red-300' },
-        { name: 'Instagram', icon: <iconify-icon icon="skill-icons:instagram" width="34" height="34"></iconify-icon>, link: '#twitter-link', color: 'text-cyan-400 hover:text-cyan-300' },
+        { name: 'Email', icon: <iconify-icon icon="skill-icons:gmail-light" width="30" height="30"></iconify-icon>, link: 'https://mail.google.com/mail/?view=cm&fs=1&to=amiteshaggarwal9948@gmail.com&su=Subject&body=BodyText', color: 'text-red-400 hover:text-red-300' },
+        { name: 'Instagram', icon: <iconify-icon icon="skill-icons:instagram" width="34" height="34"></iconify-icon>, link: 'https://www.instagram.com/amiteshaggarwal', color: 'text-cyan-400 hover:text-cyan-300' },
         { name: 'WhatsApp- 9888639756', icon: <iconify-icon icon="logos:whatsapp-icon" width="34" height="35"></iconify-icon>, link: '#', color: 'text-gray-400 hover:text-white' },
     ];
 
@@ -118,10 +118,10 @@ const ContactContent = () => {
                                 href={link.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className={`flex items-center space-x-2 text-sm sm:text-base md:text-lg font-medium transition-all duration-300 p-2 rounded-lg hover:bg-purple-800/30 ${link.color}`}
+                                className={`flex flex-col sm:flex-row items-center space-y-1 sm:space-y-0 sm:space-x-2 text-xs sm:text-sm md:text-base font-medium transition-all duration-300 p-2 rounded-lg hover:bg-purple-800/30 ${link.color}`}
                             >
                                 {link.icon}
-                                <span className=" sm:inline text-xs sm:text-sm md:text-base">{link.name}</span>
+                                <span className="text-center sm:text-left">{link.name}</span>
                             </a>
                         ))}
                     </div>

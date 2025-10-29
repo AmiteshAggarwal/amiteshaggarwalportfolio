@@ -50,14 +50,14 @@ const ResearchPaperContent = () => {
     <div className="min-h-screen py-8 ">
       {/* Header */}
       <div className="text-center mb-16 px-4">
-        <h2 className="text-5xl font-extrabold whitespace-nowrap 
+       <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold whitespace-nowrap 
         text-transparent bg-clip-text 
         bg-gradient-to-r from-indigo-400 to-purple-500 
         drop-shadow-[0_0_8px_rgba(165,180,252,0.6)]
         hover:drop-shadow-[0_0_15px_rgba(165,180,252,1)]
         transition-all duration-300">
-          MY RESEARCH-PAPERS
-        </h2>
+  MY RESEARCH-PAPERS
+</h2>
         <p className="text-base text-gray-300 mt-2">
           Scroll to see them stack! ✨
         </p>
@@ -197,14 +197,14 @@ const CertificatesContent = () => {
     <div className="min-h-screen py-8">
       {/* Header */}
       <div className="text-center mb-16 px-4">
-        <h2 className="text-5xl font-extrabold whitespace-nowrap 
+        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold whitespace-nowrap 
         text-transparent bg-clip-text 
         bg-gradient-to-r from-indigo-400 to-purple-500 
         drop-shadow-[0_0_8px_rgba(165,180,252,0.6)]
         hover:drop-shadow-[0_0_15px_rgba(165,180,252,1)]
         transition-all duration-300">
-          MY CERTIFICATES
-        </h2>
+  MY CERTIFICATES
+</h2>
         <p className="text-base text-gray-300 mt-2">
           Scroll to see them stack! ✨
         </p>
@@ -297,7 +297,7 @@ const renderProjectsContent = () => (
 
     {/* Mobile-Based Projects Section */}
     <section className="relative pt-12">
-     <h2 className="absolute -top-4 sm:-top-5 md:-top-6 left-1/2 transform -translate-x-1/2 z-20 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500 drop-shadow-[0_0_8px_rgba(165,180,252,0.6)] hover:drop-shadow-[0_0_15px_rgba(165,180,252,1)] transition-all duration-300">
+     <h2 className="absolute -top-4 sm:-top-5 md:-top-6 left-1/2 transform -translate-x-1/2 z-20 text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500 drop-shadow-[0_0_8px_rgba(165,180,252,0.6)] hover:drop-shadow-[0_0_15px_rgba(165,180,252,1)] transition-all duration-300">
   MOBILE-BASED PROJECTS
 </h2>
       
@@ -339,7 +339,7 @@ const renderProjectsContent = () => (
       </div>
     </section>
     <section className="relative pt-12 mt-10">
-     <h2 className="absolute -top-6 sm:-top-7 md:-top-8 lg:-top-10 left-1/2 transform -translate-x-1/2 z-20 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500 drop-shadow-[0_0_8px_rgba(165,180,252,0.6)] hover:drop-shadow-[0_0_15px_rgba(165,180,252,1)] transition-all duration-300">
+     <h2 className="absolute -top-6 sm:-top-7 md:-top-8 lg:-top-10 left-1/2 transform -translate-x-1/2 z-20 text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500 drop-shadow-[0_0_8px_rgba(165,180,252,0.6)] hover:drop-shadow-[0_0_15px_rgba(165,180,252,1)] transition-all duration-300">
   PC-BASED PROJECTS
 </h2>
       
@@ -460,53 +460,49 @@ const PortfolioTabs = () => {
   const [activeTab, setActiveTab] = useState('projects');
 
   const renderTabButtons = () => (
-    <div className="flex w-full justify-between items-center mb-10 gap-2 px-2 sm:px-4">
+    <div className="flex flex-nowrap w-full mb-10 gap-0 px-0 sm:px-2 sm:gap-1">
       <button
         onClick={() => setActiveTab('projects')}
-        className={`flex-1 px-2 py-4 rounded-xl font-semibold text-lg sm:text-xl transition-all flex items-center justify-center shadow-lg transform hover:scale-[1.03] ${
+        className={`flex-1 py-2 sm:py-2 md:py-3 lg:py-4 rounded-xl font-semibold text-s sm:text-sm md:text-lg lg:text-xl transition-all flex items-center justify-center shadow-lg transform hover:scale-[1.03] whitespace-nowrap ${
           activeTab === 'projects'
             ? 'bg-purple-600 text-white shadow-purple-500/50'
             : 'border-2 border-purple-500/50 text-gray-300 hover:border-purple-400 hover:text-white bg-purple-900/20'
         }`}
       >
-        <span className="hidden sm:inline">Projects</span>
-        <span className="inline sm:hidden">Proj</span>
+        Projects
       </button>
 
       <button
         onClick={() => setActiveTab('researchPaper')}
-        className={`flex-1 px-2 py-4 rounded-xl font-semibold text-lg sm:text-xl transition-all flex items-center justify-center shadow-lg transform hover:scale-[1.03] ${
+        className={`flex-1 py-2 sm:py-2 md:py-3 lg:py-4 rounded-xl font-semibold text-s sm:text-sm md:text-lg lg:text-xl transition-all flex items-center justify-center shadow-lg transform hover:scale-[1.03] whitespace-nowrap ${
           activeTab === 'researchPaper'
             ? 'bg-purple-600 text-white shadow-purple-500/50'
             : 'border-2 border-purple-500/50 text-gray-300 hover:border-purple-400 hover:text-white bg-purple-900/20'
         }`}
       >
-        <span className="hidden sm:inline">Research-Paper</span>
-        <span className="inline sm:hidden">Paper</span>
+        Research-Paper
       </button>
 
       <button
         onClick={() => setActiveTab('certificates')}
-        className={`flex-1 px-2 py-4 rounded-xl font-semibold text-lg sm:text-xl transition-all flex items-center justify-center shadow-lg transform hover:scale-[1.03] ${
+        className={`flex-1 py-2 sm:py-2 md:py-3 lg:py-4 rounded-xl font-semibold text-s sm:text-sm md:text-lg lg:text-xl transition-all flex items-center justify-center shadow-lg transform hover:scale-[1.03] whitespace-nowrap ${
           activeTab === 'certificates'
             ? 'bg-purple-600 text-white shadow-purple-500/50'
             : 'border-2 border-purple-500/50 text-gray-300 hover:border-purple-400 hover:text-white bg-purple-900/20'
         }`}
       >
-        <span className="hidden sm:inline">Certificates</span>
-        <span className="inline sm:hidden">Cert</span>
+        Certificates
       </button>
 
       <button
         onClick={() => setActiveTab('skills')}
-        className={`flex-1 px-2 py-4 rounded-xl font-semibold text-lg sm:text-xl transition-all flex items-center justify-center shadow-lg transform hover:scale-[1.03] ${
+        className={`flex-1 py-2 sm:py-2 md:py-3 lg:py-4 rounded-xl font-semibold text-s sm:text-sm md:text-lg lg:text-xl transition-all flex items-center justify-center shadow-lg transform hover:scale-[1.03] whitespace-nowrap ${
           activeTab === 'skills'
             ? 'bg-purple-600 text-white shadow-purple-500/50'
             : 'border-2 border-purple-500/50 text-gray-300 hover:border-purple-400 hover:text-white bg-purple-900/20'
         }`}
       >
-        <span className="hidden sm:inline">Skills</span>
-        <span className="inline sm:hidden">Skills</span>
+        Skills
       </button>
     </div>
   );

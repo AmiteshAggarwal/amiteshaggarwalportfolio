@@ -19,8 +19,9 @@ function App() {
 
       {/* HOME SECTION */}
       <section style={{ width: "100%", minHeight: "100vh", position: "relative" }}>
+
         <LiquidEther
-          colors={["#8A2EFF", "#FF3FD1", "#C15BFF"]}
+          colors={['#5227FF', '#FF9FFC', '#B19EEF']}
           mouseForce={20}
           cursorSize={100}
           isViscous={false}
@@ -36,8 +37,9 @@ function App() {
           autoResumeDelay={3000}
           autoRampDuration={0.6}
         >
-          <Home />
+          <Home/>
         </LiquidEther>
+
       </section>
 
       {/* REMAINING SECTIONS */}
@@ -130,10 +132,10 @@ function App() {
             alphaParticles={false}
             disableRotation={false}
           >
-          <ContactContent />
+            <ContactContent />
           </Particles>
         </section>
-       
+
       </div>
     </>
   );

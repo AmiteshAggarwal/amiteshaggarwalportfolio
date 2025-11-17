@@ -64,7 +64,7 @@ const ResearchPaperContent = () => {
       </div>
 
       {/* Cards Container */}
-      <div className="relative px-4 md:px-8" style={{ paddingBottom: '40vh' }}>
+      <div className="relative px-4 md:px-8" style={{ paddingBottom: '60vh' }}>
         {research.map((cert, index) => {
           const stickyTop = 80 + (index * 20);
 

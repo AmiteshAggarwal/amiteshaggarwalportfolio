@@ -31,7 +31,7 @@ function App() {
           resolution={0.5}
           isBounce={false}
           autoDemo={true}
-          autoSpeed={0.5}
+          autoSpeed={0.8}
           autoIntensity={2.2}
           takeoverDuration={0.25}
           autoResumeDelay={3000}

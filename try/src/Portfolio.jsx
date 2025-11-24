@@ -101,19 +101,21 @@ const ResearchPaperContent = () => {
                 </div>
 
                 {/* RIGHT SIDE: Text/Content & Link Button (Increased Height/Padding) */}
-                <div className="p-8 md:p-12 md:w-2/3 flex flex-col justify-between"> 
-                    <div>
-                        <p className="text-base md:text-xl text-white font-medium leading-relaxed mb-6">
+               <div className="p-6 md:p-12 md:w-2/3 flex flex-col h-full"> 
+                    {/* Scrollable text container with mobile-specific max-height */}
+                    <div className="overflow-y-auto mb-4 pr-2 scrollbar-thin scrollbar-thumb-purple-500 scrollbar-track-purple-900/20" 
+                         style={{ maxHeight: 'calc(100% - 60px)' }}>
+                        <p className="text-sm md:text-xl text-white font-medium leading-relaxed">
                           {cert.title}
                         </p>
                     </div>
 
-                    {/* NEW LINK BUTTON */}
+                    {/* Button stays at bottom */}
                     <a 
                         href={cert.link} 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="self-start px-6 py-2 bg-indigo-500 hover:bg-indigo-600 text-white font-semibold rounded-full shadow-lg transition duration-200 flex items-center gap-2"
+                        className="self-start px-6 py-2 bg-indigo-500 hover:bg-indigo-600 text-white font-semibold rounded-full shadow-lg transition duration-200 flex items-center gap-2 flex-shrink-0 mt-auto"
                     >
                         <iconify-icon icon="line-md:external-link" width="24" height="24"></iconify-icon>
                         View Paper

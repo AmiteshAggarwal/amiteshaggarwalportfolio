@@ -11,10 +11,10 @@ import photo from "./images/photo-pea.jpg";
 import rp1 from "./images/chapter5.webp";
 import rp2 from "./images/chapter15.jpg";
 import mentalcare from './images/mentalcare.jpg'
-import truthdare from './images/truthdare.png'
-import most from './images/most.png'
-import would from './images/would.png'
-import never from './images/never.png'
+import truthdare from './images/truth.jpg'
+import most from './images/most.jpg'
+import would from './images/would.jpg'
+import never from './images/never.jpg'
 import roll from './images/roll.jpg'
 import tomato from './images/tomato.jpg'
 import boxblast from "./images/boxblast.jpg"

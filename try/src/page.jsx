@@ -3,18 +3,18 @@ import { Code, User, Trophy } from "lucide-react";
 
 export default function Home() {
 
-  useEffect(() => {
-    // Auto-scroll after 3 seconds
-    const timer = setTimeout(() => {
-      window.scrollTo({
-        top: window.innerHeight, // scrolls exactly one viewport height
-        behavior: "smooth",
-      });
-    }, 3000);
+  // useEffect(() => {
+  //   // Auto-scroll after 3 seconds
+  //   const timer = setTimeout(() => {
+  //     window.scrollTo({
+  //       top: window.innerHeight, // scrolls exactly one viewport height
+  //       behavior: "smooth",
+  //     });
+  //   }, 3000);
 
-    // Clean up on component unmount
-    return () => clearTimeout(timer);
-  }, []);
+  //   // Clean up on component unmount
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-purple-950 to-gray-950 flex flex-col items-center justify-center text-center px-4">

@@ -293,110 +293,159 @@ const CertificatesContent = () => {
 // ==========================================================
 // RENDER PROJECTS CONTENT
 // ==========================================================
+// ==========================================================
+// RENDER PROJECTS CONTENT
+// ==========================================================
+// ==========================================================
+// RENDER PROJECTS CONTENT
+// ==========================================================
+
+// ==========================================================
+// RENDER PROJECTS CONTENT
+// ==========================================================
 const renderProjectsContent = () => (
   <div className="flex flex-col gap-24 p-8 relative">
-    {/* PC-Based Projects Section */}
-
+    
     {/* Mobile-Based Projects Section */}
     <section className="relative pt-12">
-     <h2 className="absolute -top-4 sm:-top-5 md:-top-6 left-1/2 transform -translate-x-1/2 z-20 text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500 drop-shadow-[0_0_8px_rgba(165,180,252,0.6)] hover:drop-shadow-[0_0_15px_rgba(165,180,252,1)] transition-all duration-300">
-  MOBILE-BASED PROJECTS
-</h2>
+      <h2 className="absolute -top-4 sm:-top-5 md:-top-6 left-1/2 transform -translate-x-1/2 z-20 text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500 drop-shadow-[0_0_8px_rgba(165,180,252,0.6)] hover:drop-shadow-[0_0_15px_rgba(165,180,252,1)] transition-all duration-300">
+        MOBILE-BASED PROJECTS
+      </h2>
       
       <div className="bg-purple-900/20 border border-purple-500/30 rounded-xl p-6 pt-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <a href="/mentalcarewebgl/index.html" target='_blank' className="block relative group transform hover:scale-[1.02] transition-transform duration-300">
-            <img src={mentalcare} alt="PC Game 1" className="w-full h-96 object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
-            <div className="absolute inset-0 bg-black/50 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <span className="text-white text-lg font-semibold">MentalCare is a mobile app that helps users explore their mental well-being by answering simple, guided questions. Discover insights into different mental health areas and track your emotional balance anytime, anywhere.</span>
+          
+          <a href="/mentalcarewebgl/index.html" target='_blank' rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={mentalcare} alt="MentalCare App" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">MentalCare is a mobile app that helps users explore their mental well-being by answering simple, guided questions. Discover insights into different mental health areas and track your emotional balance anytime, anywhere.</span>
             </div>
           </a>
           
-          <a href="/truthordarewebgl/index.html" target='_blank' className="block relative group transform hover:scale-[1.02] transition-transform duration-300">
-            <img src={truthdare} alt="PC Game 2" className="w-full h-96 object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
-            <div className="absolute inset-0 bg-black/50 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <span className="text-white text-lg font-semibold">Truth or Dare is a fun mobile game for 2 to 9 players, packed with exciting truth and daring challenges. Perfect for parties or hangouts, it keeps everyone laughing and on edge with every turn!</span>
+          <a href="/truthordarewebgl/index.html" target='_blank' rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={truthdare} alt="Truth or Dare Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">Truth or Dare is a fun mobile game for 2 to 9 players, packed with exciting truth and daring challenges. Perfect for parties or hangouts, it keeps everyone laughing and on edge with every turn!</span>
             </div>
           </a>
           
-          <a href="/mostlikelytowebgl/index.html" target='_blank' className="block relative group transform hover:scale-[1.02] transition-transform duration-300">
-            <img src={most} alt="PC Game 3" className="w-full h-96 object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
-            <div className="absolute inset-0 bg-black/50 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <span className="text-white text-lg font-semibold">Most Likely To is a fun mobile party game filled with hilarious and thought-provoking questions. Play with friends and find out who’s most likely to do what — laughter guaranteed every round!</span>
+          <a href="/mostlikelytowebgl/index.html" target='_blank' rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={most} alt="Most Likely To Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">Most Likely To is a fun mobile party game filled with hilarious and thought-provoking questions. Play with friends and find out who's most likely to do what — laughter guaranteed every round!</span>
             </div>
           </a>
-          <a href="/wouldyouratherwebgl/index.html" target='_blank' className="block relative group transform hover:scale-[1.02] transition-transform duration-300">
-            <img src={would} alt="PC Game 3" className="w-full h-96 object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
-            <div className="absolute inset-0 bg-black/50 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <span className="text-white text-lg font-semibold">Would You Rather is a fun mobile game that challenges players with tricky and hilarious choices. Pick between two options and see how your friends decide — perfect for endless laughs and debates!</span>
+          
+          <a href="/wouldyouratherwebgl/index.html" target='_blank' rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={would} alt="Would You Rather Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">Would You Rather is a fun mobile game that challenges players with tricky and hilarious choices. Pick between two options and see how your friends decide — perfect for endless laughs and debates!</span>
             </div>
           </a>
-          <a href="/neverhaveieverwebgl/index.html" target='_blank' className="block relative group transform hover:scale-[1.02] transition-transform duration-300">
-            <img src={never} alt="PC Game 3" className="w-full h-96 object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
-            <div className="absolute inset-0 bg-black/50 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <span className="text-white text-lg font-semibold">Never Have I Ever is a classic mobile party game packed with funny, daring, and revealing questions. Play with friends to uncover secrets, share laughs, and see who’s done what!</span>
+          
+          <a href="/neverhaveieverwebgl/index.html" target='_blank' rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={never} alt="Never Have I Ever Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">Never Have I Ever is a classic mobile party game packed with funny, daring, and revealing questions. Play with friends to uncover secrets, share laughs, and see who's done what!</span>
             </div>
           </a>
+          
         </div>
       </div>
     </section>
+
+    {/* PC-Based Projects Section */}
     <section className="relative pt-12 mt-10">
-     <h2 className="absolute -top-6 sm:-top-7 md:-top-8 lg:-top-10 left-1/2 transform -translate-x-1/2 z-20 text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500 drop-shadow-[0_0_8px_rgba(165,180,252,0.6)] hover:drop-shadow-[0_0_15px_rgba(165,180,252,1)] transition-all duration-300">
-  PC-BASED PROJECTS
-</h2>
+      <h2 className="absolute -top-6 sm:-top-7 md:-top-8 lg:-top-10 left-1/2 transform -translate-x-1/2 z-20 text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500 drop-shadow-[0_0_8px_rgba(165,180,252,0.6)] hover:drop-shadow-[0_0_15px_rgba(165,180,252,1)] transition-all duration-300">
+        PC-BASED PROJECTS
+      </h2>
       
       <div className="bg-purple-900/20 border border-purple-500/30 rounded-xl p-6 pt-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <a href="/rollballwebgl/index.html" target='_blank' className="block relative group transform hover:scale-[1.02] transition-transform duration-300">
-            <img src={roll} alt="PC Game 1" className="w-full h-96 object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
-            <div className="absolute inset-0 bg-black/50 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <span className="text-white text-lg font-semibold">RollBall is a fun PC game where you control a rolling ball, collect all the crystals, and reach the finish line to clear each challenging level.</span>
+          
+          <a href="/rollballwebgl/index.html" target='_blank' rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={roll} alt="RollBall Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">RollBall is a fun PC game where you control a rolling ball, collect all the crystals, and reach the finish line to clear each challenging level.</span>
             </div>
           </a>
           
-          <a href="/tomatofeverwebgl/index.html" target='_blank' className="block relative group transform hover:scale-[1.02] transition-transform duration-300">
-            <img src={tomato} alt="PC Game 2" className="w-full h-96 object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
-            <div className="absolute inset-0 bg-black/50 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <span className="text-white text-lg font-semibold">Tomato Fever is a fast-paced PC game where you control a bouncing tomato, guiding it downward through obstacles to reach the endpoint as quickly as possible.</span>
+          <a href="/tomatofeverwebgl/index.html" target='_blank' rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={tomato} alt="Tomato Fever Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">Tomato Fever is a fast-paced PC game where you control a bouncing tomato, guiding it downward through obstacles to reach the endpoint as quickly as possible.</span>
             </div>
           </a>
           
-          <a href="/boxblastwebgl/index.html" target="_blank" rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300">
-            <img src={boxblast} alt="PC Game 3" className="w-full h-96 object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
-            <div className="absolute inset-0 bg-black/50 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <span className="text-white text-lg font-semibold">BoxBlast is a thrilling PC game where you smash boxes and dodge skeletons. Test your reflexes as boxes burst and skeletons rise—hit fast, or get caught!</span>
+          <a href="/boxblastwebgl/index.html" target="_blank" rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={boxblast} alt="BoxBlast Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">BoxBlast is a thrilling PC game where you smash boxes and dodge skeletons. Test your reflexes as boxes burst and skeletons rise—hit fast, or get caught!</span>
             </div>
           </a>
-          <a href="/gocarwebgl/index.html" className="block relative group transform hover:scale-[1.02] transition-transform duration-300">
-            <img src={gocar} alt="PC Game 3" className="w-full h-96 object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
-            <div className="absolute inset-0 bg-black/50 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <span className="text-white text-lg font-semibold">GO CAR is a thrilling PC game where you drive a fast car along the road, collect coins, and dodge obstacles like boxes to score high and survive longer.</span>
+          
+          <a href="/gocarwebgl/index.html" target="_blank" rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={gocar} alt="GO CAR Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">GO CAR is a thrilling PC game where you drive a fast car along the road, collect coins, and dodge obstacles like boxes to score high and survive longer.</span>
             </div>
           </a>
-          <a href="/escapethemazewebgl/index.html" target="_blank" rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300">
-            <img src={escapemat} alt="PC Game 3" className="w-full h-96 object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
-            <div className="absolute inset-0 bg-black/50 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <span className="text-white text-lg font-semibold">Escape the Maze is a thrilling PC game where you navigate through a complex maze, collect the hidden key, and reach the final gate — all while avoiding alert guards patrolling the paths.</span>
+          
+          <a href="/escapethemazewebgl/index.html" target="_blank" rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={escapemat} alt="Escape the Maze Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">Escape the Maze is a thrilling PC game where you navigate through a complex maze, collect the hidden key, and reach the final gate — all while avoiding alert guards patrolling the paths.</span>
             </div>
           </a>
-          <a href="/hunterfarmwebgl/index.html" className="block relative group transform hover:scale-[1.02] transition-transform duration-300">
-            <img src={hunter} alt="PC Game 3" className="w-full h-96 object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
-            <div className="absolute inset-0 bg-black/50 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <span className="text-white text-lg font-semibold">HunterFarm is a PC game where you guard your farm from invading animals. Use your skills to stop them before they enter the field and protect your crops from being destroyed.</span>
+          
+          <a href="/hunterfarmwebgl/index.html" target="_blank" rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={hunter} alt="HunterFarm Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">HunterFarm is a PC game where you guard your farm from invading animals. Use your skills to stop them before they enter the field and protect your crops from being destroyed.</span>
             </div>
           </a>
-         
-          <a href="/jumpingboywebgl/index.html" className="block relative group transform hover:scale-[1.02] transition-transform duration-300">
-            <img src={jumpingboy} alt="PC Game 3" className="w-full h-96 object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
-            <div className="absolute inset-0 bg-black/50 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <span className="text-white text-lg font-semibold">Jumping Boy is a fast-paced PC game where you control a boy who must jump over every obstacle to survive and keep running. Timing and quick reflexes are the key to winning!</span>
+          
+          <a href="/jumpingboywebgl/index.html" target="_blank" rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={jumpingboy} alt="Jumping Boy Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">Jumping Boy is a fast-paced PC game where you control a boy who must jump over every obstacle to survive and keep running. Timing and quick reflexes are the key to winning!</span>
             </div>
           </a>
+          
         </div>
       </div>
     </section>
+    
   </div>
 );
+
+export 
+
+
 
 // ==========================================================
 // RENDER SKILLS CONTENT

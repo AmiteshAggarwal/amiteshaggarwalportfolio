@@ -33,18 +33,20 @@ export default function Homepage() {
           {/* Main Profession/Role Title (relative z-20) */}
           <div className="profession_main text-5xl sm:text-7xl font-extrabold leading-tight relative z-20">
             <span className="text-white block drop-shadow-[0_0_10px_rgba(255,255,255,0.4),_0_0_20px_rgba(255,255,255,0.2)]">
-              Unity
+              Creative Technologist
             </span>
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-500 block drop-shadow-[0_0_10px_rgba(165,180,252,0.6),_0_0_20px_rgba(192,132,252,0.4)]">
-              Developer
+             & Businessman
             </span>
           </div>
 
           {/* Interest/Secondary Role */}
           <div className="interest text-xl sm:text-2xl text-gray-400 font-light">
             <TextType
-              text={["AR/VR/Game/App Developer", "Researcher"]}
-              typingSpeed={75}
+              text={["AR/VR/Game/App Developer", "Researcher",
+                "Businessman", "Writer"
+              ]}
+              typingSpeed={100}
               pauseDuration={1500}
               showCursor={true}
               cursorCharacter="|"
@@ -53,11 +55,11 @@ export default function Homepage() {
 
           {/* Description */}
           <div className="profession_description text-gray-300 max-w-md lg:max-w-none text-base sm:text-lg">
-            Creating innovative, interactive, and user-friendly AR/VR experiences, games, and applications for digital solutions and technology research.
+            Creating innovative, interactive, and user-friendly AR/VR experiences, games, and applications while exploring emerging technologies through research, transforming ideas into impactful digital solutions, and expressing creativity through writing.
           </div>
 
           {/* Skills/Technologies with neon borders and text and hover effect */}
-          <div className="flex flex-wrap gap-3 pt-2 justify-center lg:justify-start">
+          {/* <div className="flex flex-wrap gap-3 pt-2 justify-center lg:justify-start">
             {['Unity', 'C#',].map((skill) => (
               <span
                 key={skill}
@@ -72,7 +74,7 @@ export default function Homepage() {
                 {skill}
               </span>
             ))}
-          </div>
+          </div> */}
 
           {/* Socials - CRITICAL FIX: High Z-index ensures links are on top of all visual effects */}
           <div className="socials flex gap-6 pt-8 ml-2 text-gray-400 justify-center lg:justify-start text-3xl z-30">

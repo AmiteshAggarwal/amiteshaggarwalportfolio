@@ -25,7 +25,7 @@ export default function Home() {
           Crafting Ideas Into
         </h1>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
-          Games & Apps
+          Innovations
         </h1>
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-purple-400 via-blue-400 to-purple-500 bg-clip-text text-transparent leading-tight">
           Explore my Portfolio

@@ -10,6 +10,10 @@ import adobeafter from "./images/adobe-after.jpg";
 import photo from "./images/photo-pea.jpg";
 import rp1 from "./images/chapter5.webp";
 import rp2 from "./images/chapter15.jpg";
+import rp3 from "./images/RP1.jpeg"
+import rp4 from "./images/RP2.jpeg"
+import rp5 from "./images/RP3.jpeg"
+import rp6 from "./images/RP4.jpeg"
 import mentalcare from './images/mentalcare.jpg'
 import truthdare from './images/truth.jpg'
 import most from './images/most.jpg'
@@ -22,6 +26,18 @@ import gocar from "./images/gocar.jpg"
 import escapemat from "./images/escapemat.jpg"
 import hunter from "./images/hunter.jpg"
 import jumpingboy from "./images/jumpingboy.jpg"
+import wr1 from "./images/WR1.jpeg"
+import wr2 from "./images/WR2.jpeg"
+import wr3 from "./images/WR3.jpeg"
+import wr4 from "./images/WR4.jpeg"
+import wr5 from "./images/WR5.jpeg"
+import wr6 from "./images/WR6.jpeg"
+import wr12 from "./images/WR7.jpeg"
+import wr8 from "./images/WR8.jpeg"
+import wr9 from "./images/WR9.jpeg"
+import wr10 from "./images/WR10.jpeg"
+import wr11 from "./images/WR11.jpeg"
+import wr7 from "./images/WR12.jpeg"
 
 import { img } from 'motion/react-client';
 
@@ -42,6 +58,30 @@ const ResearchPaperContent = () => {
       src: rp2,
       title: "Chapter 15 of the book Healthcare Frontiers in the Metaverse, titled Case Study, Future Scope, and Vision of Metaverse in Healthcare, explores the role of metaverse technologies in healthcare through case studies and future perspectives. Amitesh Aggarwal contributed as the 3rd author alongside Dr. Priyanka Datta, Neha Garg, and Dr. Amanpreet Kaur. This work reflects a collaborative research effort and the guidance and support of mentors and co-authors.",
       link: "https://shop.elsevier.com/books/healthcare-frontiers-in-the-metaverse/rani/978-0-443-32998-2", // Added link property
+      icon: "🏆"
+    },
+    {
+      src: rp3,
+      title: "Chapter 3 of the book, titled *Innovating Securely: 6G and IoT for Immersive Futures*, explores the convergence of 6G, the Internet of Things (IoT), and immersive technologies, with a strong focus on security, privacy, and trustworthy digital ecosystems. Amitesh Aggarwal contributed as the 3rd author alongside Neha Garg, Dr. Priyanka Datta, Dr. Amanpreet Kaur, and Yonis Gulzar. This work reflects a collaborative research effort toward understanding emerging security challenges and advanced solutions for building secure, reliable, and sustainable AR, VR, and XR experiences.",
+      link: "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003586456-3/innovating-securely-neha-garg-priyanka-datta-amitesh-aggarwal-amanpreet-kaur-yonis-gulzar", // Added link property
+      icon: "🏆"
+    },
+    {
+      src: rp4,
+      title: "This chapter explores the integration of Machine Learning (ML) with the Internet of Things (IoT), focusing on how intelligent models can process vast amounts of IoT-generated data to identify patterns, predict outcomes, detect anomalies, optimize devices, and enable automated decision-making. The work examines supervised and unsupervised learning, deep learning models, transfer learning, federated learning, and reinforcement learning, while highlighting practical applications in smart cities, Industrial IoT, and smart home technologies. ",
+      link: "https://onlinelibrary.wiley.com/doi/10.1002/9781394370702.ch3", // Added link property
+      icon: "🏆"
+    },
+    {
+      src: rp5,
+      title: "Chapter 5 of the book, titled *Deep Generative Learning: Foundations and Case Studies in Medical Image Processing*, explores the foundations of deep generative learning and its applications in medical image processing. The chapter examines advanced generative models and their role in medical image generation, enhancement, reconstruction, segmentation, and analysis, supported by relevant case studies and practical applications. This work reflects a collaborative research effort toward understanding the potential of deep generative learning in improving medical imaging, supporting accurate diagnosis, and advancing intelligent healthcare technologies. ",
+      link: "https://www.degruyterbrill.com/document/doi/10.1515/9783112226223/html", // Added link property
+      icon: "🏆"
+    },
+    {
+      src: rp6,
+      title: "An AI-Driven Game Analyst Framework for Intelligent Player Analysis in a Unity-Based Roll Ball Environment explores the integration of Artificial Intelligence (AI) and Machine Learning (ML) into game analytics to evaluate player performance and gameplay behavior. The work utilizes gameplay data collected from a Unity-based Roll Ball environment and applies machine learning models to analyze player scores and classify players into different performance tiers. This research demonstrates how AI-driven game analytics can support intelligent player assessment, performance prediction, adaptive gameplay experiences, and data-driven decision-making in modern game development. ",
+      link: "https://www.impaxon.com/computics/2/2", // Added link property
       icon: "🏆"
     },
   ];
@@ -80,7 +120,7 @@ const ResearchPaperContent = () => {
             >
               <div className="flex flex-col md:flex-row h-full">
                 
-                {/* LEFT SIDE: Image/Visual (Increased Height) */}
+                {/* LEFT SIDE: Image/Visual */}
                 <div className="relative md:w-1/3 w-full h-72 md:h-96 overflow-hidden bg-white flex items-center justify-center p-4">
                   <img
                     src={cert.src}
@@ -169,27 +209,62 @@ const ResearchPaperContent = () => {
 const CertificatesContent = () => {
   const certificates = [
     {
-      src: cert1,
+      src: wr1,
       title: "Awarded for completing one year of dedicated work and valuable contributions at IITL (CURIN), Chitkara University.",
       icon: "🎓"
     },
     {
-      src: cert2,
+      src: wr2,
       title: "Received for outstanding involvement and support in successfully delivering a funded project at IITL (CURIN), Chitkara University.",
       icon: "🏆"
     },
     {
-      src: cert3,
+      src: wr3,
       title: "Recognised for volunteering as an organiser and helping ensure the smooth execution of the cultural event Banger 2024-2025.",
       icon: "🎉"
     },
     {
-      src: cert4,
+      src: wr4,
       title: "Awarded the Certificate of Excellence for successfully completing the Introduction to Python course from Coding Ninjas",
       icon: "🐍"
     },
     {
-      src: cert5,
+      src: wr5,
+      title: "Awarded a Certificate of Appreciation for delivering absolute performance and remarkable problem-solving skills in the Hackathon HTM 4.0",
+      icon: "💻"
+    },
+    {
+      src: wr6,
+      title: "Awarded a Certificate of Appreciation for delivering absolute performance and remarkable problem-solving skills in the Hackathon HTM 4.0",
+      icon: "💻"
+    },
+    {
+      src: wr7,
+      title: "Awarded a Certificate of Appreciation for delivering absolute performance and remarkable problem-solving skills in the Hackathon HTM 4.0",
+      icon: "💻"
+    },
+    {
+      src: wr8,
+      title: "Awarded a Certificate of Appreciation for delivering absolute performance and remarkable problem-solving skills in the Hackathon HTM 4.0",
+      icon: "💻"
+    },
+    {
+      src: wr9,
+      title: "Awarded a Certificate of Appreciation for delivering absolute performance and remarkable problem-solving skills in the Hackathon HTM 4.0",
+      icon: "💻"
+    },
+    {
+      src: wr10,
+      title: "Awarded a Certificate of Appreciation for delivering absolute performance and remarkable problem-solving skills in the Hackathon HTM 4.0",
+      icon: "💻"
+    },
+    {
+      src: wr11,
+      title: "Awarded a Certificate of Appreciation for delivering absolute performance and remarkable problem-solving skills in the Hackathon HTM 4.0",
+      icon: "💻"
+    },
+    {
+      src: wr12,
       title: "Awarded a Certificate of Appreciation for delivering absolute performance and remarkable problem-solving skills in the Hackathon HTM 4.0",
       icon: "💻"
     },
@@ -205,7 +280,7 @@ const CertificatesContent = () => {
         drop-shadow-[0_0_8px_rgba(165,180,252,0.6)]
         hover:drop-shadow-[0_0_15px_rgba(165,180,252,1)]
         transition-all duration-300">
-  MY CERTIFICATES
+  MY WRITINGS
 </h2>
         <p className="text-base text-gray-300 mt-2">
           Scroll to see them stack! ✨
@@ -213,30 +288,30 @@ const CertificatesContent = () => {
       </div>
 
       {/* Cards Container */}
-      <div className="relative px-4 md:px-8" style={{ paddingBottom: '40vh' }}>
+      <div className="relative px-4 md:px-8" style={{ paddingBottom: '60vh' }}>
         {certificates.map((cert, index) => {
           const stickyTop = 80 + (index * 20);
           
           return (
             <div
               key={index}
-              className="certificate-card w-full max-w-3xl mx-auto bg-purple-950 rounded-2xl shadow-2xl overflow-hidden mb-96"
+              className="certificate-card w-full max-w-2xl mx-auto bg-purple-950 rounded-2xl shadow-2xl overflow-hidden mb-96"
               style={{
                 position: 'sticky',
                 top: `${stickyTop}px`,
                 zIndex: 100 + index,
               }}
             >
-              <div className="relative h-48 md:h-64 overflow-hidden">
+              <div className="relative h-[60vh] md:h-[55vh] overflow-hidden">
                 <img
                   src={cert.src}
                   alt={cert.title}
                   className="w-full h-full object-contain"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent pointer-events-none" />
-                <div className="absolute top-4 left-4 w-12 h-12 rounded-xl flex items-center justify-center text-2xl shadow-lg">
+                {/* <div className="absolute top-4 left-4 w-12 h-12 rounded-xl flex items-center justify-center text-2xl shadow-lg">
                   {cert.icon}
-                </div>
+                </div> */}
                 <div className="absolute bottom-4 left-4">
                   <div className="inline-block px-3 py-1.5 bg-white/90 backdrop-blur-sm rounded-full text-xs font-semibold text-gray-800">
                     {index + 1} of {certificates.length}
@@ -244,11 +319,11 @@ const CertificatesContent = () => {
                 </div>
               </div>
 
-              <div className="p-6 md:p-8">
+              {/* <div className="p-6 md:p-8">
                 <p className="text-base md:text-lg text-white leading-relaxed">
                   {cert.title}
                 </p>
-              </div>
+              </div> */}
             </div>
           );
         })}
@@ -542,7 +617,7 @@ const PortfolioTabs = () => {
             : 'border-2 border-purple-500/50 text-gray-300 hover:border-purple-400 hover:text-white bg-purple-900/20'
         }`}
       >
-        Certificates
+        Writings
       </button>
 
       <button

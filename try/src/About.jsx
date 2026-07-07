@@ -47,14 +47,15 @@ export default function About() {
                     {/* Description */}
                     <div className="Profession-Description text-gray-300 max-w-lg lg:max-w-xl text-base sm:text-lg pt-4 leading-relaxed">
                         {/* Note: I'm keeping your original description content */}
-                        I'm Amitesh Aggarwal, a passionate Computer Science Engineering student and AR/VR/Game Developer dedicated to immersive technologies and educational innovation. With expertise in Unity, AR/VR/MR, Cocos Creator, UI/UX, and app development, I’ve built 10+ projects and authored research papers. I previously worked as a Technical Artist Intern at Qurious Bit Games and an Intern at IITL (CURIN), Chitkara University. Skilled in C#, TypeScript, HTML, CSS, C, C++, Python, Java, Adobe After Effects, MS Excel, and communication, I strive to blend creativity and technology to craft impactful, real-world solutions.
+                        {/* I'm Amitesh Aggarwal, a passionate Computer Science Engineering student and AR/VR/Game Developer dedicated to immersive technologies and educational innovation. With expertise in Unity, AR/VR/MR, Cocos Creator, UI/UX, and app development, I’ve built 10+ projects and authored research papers. I previously worked as a Technical Artist Intern at Qurious Bit Games and an Intern at IITL (CURIN), Chitkara University. Skilled in C#, TypeScript, HTML, CSS, C, C++, Python, Java, Adobe After Effects, MS Excel, and communication, I strive to blend creativity and technology to craft impactful, real-world solutions. */}
+                        I'm Amitesh Aggarwal, a Computer Science Engineer, AR/VR and Game Developer, researcher, writer, and entrepreneur passionate about immersive technologies, interactive experiences, and digital innovation. With experience in Unity, AR/VR/MR, Cocos Creator, UI/UX, and application development, I have developed 10+ projects spanning games, immersive experiences, and real-world digital solutions. Alongside development, I explore emerging technologies through research and express ideas and experiences through creative and technical writing. I previously worked as a Technical Artist Intern at Qurious Bit Games and as an Intern at the Immersive and Interactive Technologies Lab (IITL), CURIN, Chitkara University. My technical skill set includes C#, TypeScript, HTML, CSS, C, C++, Python, Java, Adobe After Effects, and MS Excel. Driven by curiosity and creativity, I aim to combine technology, research, storytelling, and entrepreneurship to create meaningful experiences and impactful solutions.
                     </div>
 
                     {/* Action Buttons (Icons) */}
                     <div className="Icons flex gap-4 pt-8 justify-center lg:justify-start">
                         {/* Download CV Button */}
                         <span className="CV">
-                            <a
+                            {/* <a
                                 href={resume}
                                 className="bg-gradient-to-r from-indigo-500 to-purple-600 
                                            text-white font-bold py-3 px-8 rounded-lg shadow-lg transition duration-300 text-lg
@@ -62,7 +63,7 @@ export default function About() {
                                            hover:scale-[1.02] active:scale-[0.98]" download
                             >
                                 Download CV
-                            </a>
+                            </a> */}
                         </span>
 
                         {/* View Projects Link */}

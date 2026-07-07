@@ -7,7 +7,7 @@ export default function Education() {
     // Array structure for easy mapping and clean rendering
     const educationEntries = [
         {
-            timeline: "10/2022 - 06/2026 (Expected)",
+            timeline: "10/2022 - 06/2026 ",
             degree: "B.E Computer Science and Engineering",
             institution: "Chitkara University, Rajpura, Punjab"
         },

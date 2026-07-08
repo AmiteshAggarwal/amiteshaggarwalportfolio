@@ -295,7 +295,7 @@ const CertificatesContent = () => {
           return (
             <div
               key={index}
-              className="certificate-card w-full max-w-2xl mx-auto bg-purple-950 rounded-2xl shadow-2xl overflow-hidden mb-24 sm:mb-32 md:mb-96 h-[500px] sm:h-[580px] md:h-[650px]"
+              className="certificate-card w-full max-w-2xl mx-auto bg-purple-950 rounded-2xl shadow-2xl overflow-hidden mb-24 sm:mb-32 md:mb-96 h-auto"
               style={{
                 position: 'sticky',
                 top: `${stickyTop}px`,
@@ -303,11 +303,11 @@ const CertificatesContent = () => {
                 zIndex: 100 + index,
               }}
             >
-              <div className="relative w-full h-full overflow-hidden p-1 sm:p-2 md:p-4 bg-purple-950 flex items-center justify-center">
+              <div className="relative w-full h-auto max-h-[inherit] overflow-hidden p-1 sm:p-2 md:p-4 bg-purple-950 flex items-center justify-center">
                 <img
                   src={cert.src}
                   alt={cert.title}
-                  className="w-full h-full object-contain rounded-xl"
+                  className="w-full h-auto max-h-[inherit] object-contain rounded-xl block"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
                 {/* <div className="absolute top-4 left-4 w-12 h-12 rounded-xl flex items-center justify-center text-2xl shadow-lg">

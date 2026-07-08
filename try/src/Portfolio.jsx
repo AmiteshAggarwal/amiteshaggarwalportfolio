@@ -23,7 +23,7 @@ import roll from './images/roll.jpg'
 import tomato from './images/tomato.jpg'
 import boxblast from "./images/boxblast.jpg"
 import gocar from "./images/gocar.jpg"
-import escapemat from "./images/escapemat.jpg"
+import escapemat from "./images/escape.jpeg"
 import hunter from "./images/hunter.jpg"
 import jumpingboy from "./images/jumpingboy.jpg"
 import wr1 from "./images/WR1.jpeg"
@@ -38,7 +38,10 @@ import wr9 from "./images/WR9.jpeg"
 import wr10 from "./images/WR10.jpeg"
 import wr11 from "./images/WR11.jpeg"
 import wr7 from "./images/WR12.jpeg"
-
+import toss from "./images/toss.jpeg"
+import dice from "./images/dice.jpeg"
+import calculator from "./images/calculator.jpeg"
+import stopwatch from "./images/stopwatch.jpeg"
 import { img } from 'motion/react-client';
 
 
@@ -433,6 +436,46 @@ const renderProjectsContent = () => (
             </div>
             <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
               <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">Never Have I Ever is a classic mobile party game packed with funny, daring, and revealing questions. Play with friends to uncover secrets, share laughs, and see who's done what!</span>
+            </div>
+          </a>
+          <a href="/rollthedicewebglN/index.html" target='_blank' rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={dice} alt="Never Have I Ever Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">Roll the Dice is a simple app that lets a person virtually roll a dice.With one tap the dice rolls and shows a number from one to six.It works like a real dice but in a fast and digital way.</span>
+            </div>
+          </a>
+          <a href="/tosswebglN/index.html" target='_blank' rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={toss} alt="Never Have I Ever Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">Toss is a simple app that lets a person virtually flip a coin.With one tap the coin spins and shows the result either heads or tails.It works like a real toss but in a fast and digital way.</span>
+            </div>
+          </a>
+          <a href="/rolldoubledicewebglN/index.html" target='_blank' rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={dice} alt="Never Have I Ever Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">Roll Double Dice is a simple app that lets a person virtually roll two dice.With one tap both dice spin and land on random numbers.It works like real dice but in a quick and digital way.</span>
+            </div>
+          </a>
+          <a href="/calculatorwebglN/index.html" target='_blank' rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={calculator} alt="Never Have I Ever Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">Calculator is a simple app that lets a person perform quick and accurate calculations.With one tap, numbers and operators can be entered and results are shown instantly.It works like a real calculator but in a fast, clean, and digital way.</span>
+            </div>
+          </a>
+          <a href="/stopwatchwebglN/index.html" target='_blank' rel="noopener noreferrer" className="block relative group transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden rounded-lg">
+            <div className="w-full h-64 md:h-96 bg-gradient-to-br from-purple-900/40 to-indigo-900/40">
+              <img src={stopwatch} alt="Never Have I Ever Game" className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-purple-500/50" />
+            </div>
+            <div className="absolute inset-0 bg-black/60 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity p-4">
+              <span className="text-white text-sm md:text-lg font-semibold text-center leading-relaxed">Stopwatch is a simple app that lets a person measure time accurately.With one tap, the timer starts and stops instantly, and time can be reset easily.It works like a real stopwatch but in a fast, clean, and digital way.</span>
             </div>
           </a>
 
